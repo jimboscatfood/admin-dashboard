@@ -88,7 +88,7 @@
     flex-shrink: 0;
 }
 
-.sidebar1 {
+.sidebar1, .sidebar2 {
     padding-left:0.5rem;
 }
 
@@ -106,7 +106,7 @@
     justify-content: flex-start;
 }
 
-.sidebar1 svg {
+.sidebar svg {
     fill:var(--sidebar-color);
     width:40px;
     height:40px;
