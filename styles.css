@@ -210,6 +210,28 @@
     font-weight: bold;
 }
 
+.user-function {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:3rem;
+}
+
+.user-function button {
+    border-radius: 20px;
+    border: none;
+    width:10ch;
+    height:2.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: #60a5fa;
+    color:var(--sidebar-font-color);
+}
+
+.user-function button:hover {
+    cursor: pointer;
+}
+
 .dashboard {
     grid-area:2/2/3/3;
     background-color:#cbd5e1;
