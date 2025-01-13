@@ -90,8 +90,8 @@ ul {
 
 .icon svg {
     fill:var(--sidebar-font-color);
-    width:70px;
-    height:70px;
+    min-width:70px;
+    min-height:70px;
 
     grid-column: 1/2;
     justify-self: center;
@@ -290,7 +290,7 @@ ul {
 
 .announcements {
     display:grid;
-    grid-auto-rows: auto;
+    grid-auto-rows: min-content;
 }
 
 .announcements-grid {
